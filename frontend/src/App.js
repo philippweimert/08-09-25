@@ -13,6 +13,7 @@ import AktuellesPage from "./components/AktuellesPage";
 import DieBavPage from "./components/DieBavPage";
 import DieBavPageX from "./components/DieBavPageX";
 import DieBavPageY from "./components/DieBavPageY";
+import RechtePflichtenChancenPage from "./components/RechtePflichtenChancenPage";
 import BkvPage from "./components/BkvPage";
 import BuvPage from "./components/BuvPage";
 import { Toaster } from "./components/ui/toaster";
@@ -29,6 +30,7 @@ function App() {
           <Route path="/die-bav" element={<DieBavPage />} />
           <Route path="/die-bav/x" element={<DieBavPageX />} />
           <Route path="/die-bav/y" element={<DieBavPageY />} />
+          <Route path="/die-bav/rechte-pflichten-chancen" element={<RechtePflichtenChancenPage />} />
           <Route path="/die-bav/aktuelles" element={<AktuellesPage />} />
           <Route path="/bkv" element={<BkvPage />} />
           <Route path="/buv" element={<BuvPage />} />
