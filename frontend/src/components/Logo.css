@@ -1,0 +1,17 @@
+.acencia-text {
+    font-family: 'Tenor Sans', serif;
+    font-size: 235px;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    fill: #FFFFFF;
+    dominant-baseline: hanging;
+}
+
+.tagline-text {
+    font-family: 'Tenor Sans', serif;
+    font-size: 65px;
+    font-weight: 400;
+    letter-spacing: 0.25em;
+    fill: #FFFFFF;
+    dominant-baseline: hanging;
+}

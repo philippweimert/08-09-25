@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "./ui/button";
 import { Menu, X, ChevronDown } from "lucide-react";
+import Logo from './Logo';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,9 +26,7 @@ const Header = () => {
           {/* Logo - Clean & Professional */}
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center transition-opacity duration-200 hover:opacity-80">
-              <span className="text-2xl font-semibold text-white tracking-tight font-heading">
-                ACENCIA
-              </span>
+              <Logo className="h-10 w-auto" />
             </Link>
           </div>
 
