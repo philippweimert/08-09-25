@@ -134,6 +134,12 @@ const DieBavPage = () => {
       link: "/die-bav/y"
     },
     {
+      title: "Rechte, Pflichten, Chancen",
+      description: "Alle wichtigen Informationen zu gesetzlichen Pflichten, steuerlichen Vorteilen und den Chancen der bAV.",
+      icon: <Scale className="w-6 h-6" />,
+      link: "/die-bav/rechte-pflichten-chancen"
+    },
+    {
       title: "Aktuelles",
       description: "Bleiben Sie informiert über die neuesten Entwicklungen, Gesetze und Trends in der bAV.",
       icon: <TrendingUp className="w-6 h-6" />,
